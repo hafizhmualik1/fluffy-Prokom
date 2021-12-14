@@ -1,3 +1,8 @@
+pip install matplotlib.pylot
+pip install matplotlib
+pip install pandas
+pip install streamlit 
+
 import matplotlib.pyplot as plt
 from matplotlib import cm
 import json
