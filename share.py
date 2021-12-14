@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 from matplotlib import cm
 import json
 import pandas as pd
