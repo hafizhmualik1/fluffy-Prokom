@@ -41,7 +41,7 @@ def printDF(df_input):
 # Container untuk nav menu
 with st.container():
     from PIL import Image
-    image = Image.open('itb.png')
+    image = Image.open('Itb.png')
     st.sidebar.image(image)
     st.sidebar.markdown("# Data Produksi Minyak Mentah")
     st.info("Selamat datang dalam halaman informasi data produksi minyak mentah")
