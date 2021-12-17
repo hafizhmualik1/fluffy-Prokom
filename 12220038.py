@@ -65,7 +65,7 @@ if 'Data Produksi Tiap Negara' in MenuSelection :
         # Keluarkan data
         left_col, right_col = st.columns([3,1.5])
         left_col.subheader('Grafik')
-        left_col.line_chart(negprodDF)
+        left_col.bar_chart(negprodDF)
         right_col.subheader('Tabel')
         right_col.dataframe(negprodDF)
 
